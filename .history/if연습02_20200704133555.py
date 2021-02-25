@@ -1,0 +1,1 @@
+temp = int(input("기온은 어때요"))

@@ -1,0 +1,19 @@
+# import travel.thailand
+# # import travel.thailand.ThailandPackage <- 사용이 불가능하다.
+# trip_to = travel.thailand.ThailandPackage()
+# trip_to.detail()
+
+# from travel.thailand import ThailandPackage # from import 함수에서는 모듈, 패키지, 함수 모두 import할 수 있다.
+# trip_to = ThailandPackage()
+# trip_to.detail()
+
+# from travel import vietnam
+# trip_to = vietnam.VietnamPackage()
+# trip_to.detail()
+
+# from random import *
+from travel import *
+# trip_to = vietnam.VietnamPackage()
+trip_to = thailand.ThailandPackage()  # < - init에서 베트남만 정의했기 때문에 대만은 쓸 수 없다.
+# __all__.py에 가서 thailand도 정의해 주어야 한다.
+trip_to.detail()

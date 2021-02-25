@@ -1,0 +1,4 @@
+import pickle
+profile_file = open("profile.pickle", "wb")
+# w 뒤에 오는 b는 바이너리라고 한다. pickle을 사용하기 위해서는 바이너리 타입을 설정해 주어야 한다.
+

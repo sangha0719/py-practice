@@ -1,0 +1,1 @@
+def profile(name, age, lang)

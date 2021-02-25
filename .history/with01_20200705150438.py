@@ -1,0 +1,1 @@
+with open("study.txt", "w", encoding="utf8") as 

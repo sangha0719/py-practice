@@ -1,0 +1,2 @@
+import sys
+print("Python", "Java", file=sys.out)
